@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+<div class="container">
+	
+	<h1>Practice Activity</h1>
+
+		<div class="form-group">
+		  <label >User Name:</label>
+          <input type="text" id="user_name" class="form-control" placeholder="Write Your User Name">
+		</div>
+
+		<button class="btn btn-success" onclick="addUser()">Add User Name</button>
+        <button class="btn btn-success" onclick="clear()">clear</button>
+</div>
+
+<h2 class="page_header" id="achievements">School Achievements</h2>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+	Inter School Debate on enviorment Pullution<i class="fa fa-sort-desc"></i>
+</div>
+
+<div id="school_achievement1" class="collapse">
+
+	<div class="achievement_text">
+		<img src="se1.jpg" class="img-responsive img-thumbnail">
+		<h5 class="text-success text-capitalize">Won first place in inter school debate on enviorment pollution
+			<span class="glyphicon glyphicon-star"></span>
+			<span class="glyphicon glyphicon-star"></span>
+			<span class="glyphicon glyphicon-star"></span>
+			<span class="glyphicon glyphicon-star"></span>
+			<span class="glyphicon glyphicon-star"></span>
+		</h5>
+		<p>the school is very happy to win first place</p>
+	</div>
+	
+</div>
+
+
+</body>
+</html>
